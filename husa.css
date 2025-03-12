@@ -1,0 +1,69 @@
+body {
+    background-image: url('https://i.imgur.com/o7xeRrc.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1 {
+    color: white;
+    background-image: url('https://i.imgur.com/Csb22Du.jpeg');
+    padding: 30px 400px 30px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    -webkit-text-stroke: 0.5px red;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+input {
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    padding: 5px 50px;
+}
+
+button {
+    color: white;
+    margin: 10px 0 10px 0;
+    background-color: red;
+    border: none;
+    padding: 10px 100px 10px 100px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: red;
+    border-radius: 0 10px 0 10px;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 0 10px 0 10px;
+}
+
+nav ul li a:hover {
+    color: darkred;
+    background-color: white;
+}
